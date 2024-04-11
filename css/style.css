@@ -34,3 +34,40 @@ nav{
     background-color:#4682B4;
     border-bottom:1px solid #ff0000;
 }
+nav:after{
+  clear:both;
+  content:"";
+ display:block;
+ height:50px;
+ width:50px;
+ background-color: #ff0000;
+}
+.nav-container{
+max-width: 1200px;
+position:relative;
+margin-right: auto;
+margin-left: auto;
+}
+#logo{
+ width: 50px;
+ height: 50px;
+ margin-top: 25px;
+}
+.nav container ul{
+  float:right;
+  height: 100px;
+  margin:0;
+}
+.nav container li{
+  list-style: none;
+  float: left;
+  margin: 15px;
+}
+.nav container li a{
+  text-decoration: none;
+  color: #666
+  transition:ss;
+}
+.nav container li a hover {
+  color: #3381F3
+}
